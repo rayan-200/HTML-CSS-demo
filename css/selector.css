@@ -1,0 +1,46 @@
+/* Selects all <p> elements where the parent is a <div> element */
+
+
+/* div>p{
+    color: red;
+} */
+
+
+/* Selects all <p> elements where the parent is a <div> element  where the parent have id #d1*/
+
+
+/* #d1>div>p {
+    color: red;
+} */
+
+
+/* 	Selects all elements <p> that is a descendant of an element <div> that is descendant of an element with id d1 */
+
+
+/* #d1 div p{
+    color: red;;
+} */
+
+
+/* p+div>p {
+    color: red;
+} */
+
+
+/* p+ div p{
+    color: red;
+} */
+
+
+/* #d11.childcntl{
+    color: red;
+} */
+
+
+/* #d1 > p,#d11 >p {
+    color: red;
+} */
+
+#d11+.childcntl {
+    color: red;
+}
